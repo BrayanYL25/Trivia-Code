@@ -1,0 +1,251 @@
+{
+  "result": [
+    [
+      {
+        "question": "¿Qué es Git y para qué se utiliza en el desarrollo de software?",
+        "answer": "Un sistema de control de versiones",
+        "hint": "Necesitamos controlar y registrar los cambios que se hicieron en un programa",
+        "options": [
+          { "id": 0, "opt": "Una base de datos"},
+          { "id": 1, "opt": "Un sistema de control de versiones" },
+          { "id": 2, "opt": "Un lenguaje de programación" },
+          { "id": 3, "opt": "Un entorno de desarrollo integrado" }
+        ]
+      },
+      {
+        "question": "¿Qué es un bucle (loop) en programación y cuál es su propósito?",
+        "answer": "Una estructura de control que repite un bloque de código",
+        "hint": "bucle bucle bucle bucle bucle bucle, fin, eso es un bucle",
+        "options": [
+          {"id": 0, "opt": "Un error en el código"},
+          {"id": 1, "opt": "Una estructura de control que repite un bloque de código"},
+          {"id": 2, "opt": "Una variable temporal"},
+          {"id": 3, "opt": "Una función matemática"}
+        ]
+      },
+      {
+        "question": "¿Cuál es la diferencia entre una llave primaria y una llave foránea en una base de datos relacional?",
+        "answer": "La llave primaria es única en la tabla, la foránea se relaciona con otras tablas",
+        "hint": "Algo foraneo no tien pinta de quedarse en un solo lugar, sino estar en varios lugares",
+        "options": [
+          { "id": 0, "opt" : "No hay diferencia, son términos intercambiables" },
+          { "id": 1, "opt" : "La llave primaria es única en la tabla, la foránea se relaciona con otras tablas" },
+          { "id": 2, "opt" : "La llave foránea es única en la tabla, la primaria se relaciona con otras tablas" },
+          { "id": 3, "opt" : "Ambas son claves externas" }
+        ]
+      },
+      {
+        "question": "¿Qué significa el principio de responsabilidad única en el desarrollo de software?",
+        "hint": "¿Único? Eso suena a que no hay mucha cosa que tenga que hacer mi codigo",
+        "answer": "Cada función o clase debe tener una única responsabilidad",
+        "options": [
+          {"id": 0, "opt": "Una función debe realizar múltiples tareas" },
+          {"id": 1, "opt": "Cada función o clase debe tener una única responsabilidad" },
+          {"id": 2, "opt": "Los desarrolladores deben trabajar individualmente" },
+          {"id": 3, "opt": "Todas las opciones" }
+        ]
+      },
+      {
+        "question": "¿Cuál es la diferencia entre una variable local y una variable global en programación?",
+        "answer": "Una variable local se declara dentro de una función, una global fuera de cualquier función",
+        "hint": "Una función no parece ser muy global",
+        "options": [
+          {"id": 0, "opt": "No hay diferencia, son términos intercambiables" },
+          {"id": 1, "opt": "Una variable local se declara dentro de una función, una global fuera de cualquier función" },
+          {"id": 2, "opt": "Una variable global se declara dentro de una función, una local fuera de cualquier función" },
+          {"id": 3, "opt": "Ambas pueden ser utilizadas en cualquier parte del código" }
+        ]
+      },
+      {
+        "question": "¿Qué es la programación orientada a objetos?",
+        "answer": "Un paradigma de programación que utiliza objetos y clases",
+        "hint": "POO organiza el código en 'objetos' para eficiencia",
+        "options": [
+          {"id": 0, "opt": "Un estilo de programación centrado en algoritmos" },
+          {"id": 1, "opt": "Un paradigma de programación que utiliza objetos y clases" },
+          {"id": 2, "opt": "Una forma de programar sin utilizar funciones" },
+          {"id": 3, "opt": "Todas las opciones" }
+        ]
+      },
+      {
+        "question": "¿Cuál es la diferencia entre un lenguaje de programación compilado e interpretado?",
+        "answer": "Un lenguaje compilado se traduce completamente antes de la ejecución, mientras que un lenguaje interpretado se traduce línea por línea durante la ejecución",
+        "hint": "La compilación examina todo el código y luego lo ejecuta",
+        "options": [
+          { "id": 0, "opt": "En un lenguaje compilado, el código se ejecuta línea por línea" },
+          { "id": 1, "opt": "En un lenguaje interpretado, el código se traduce a código máquina antes de la ejecución" },
+          { "id": 2, "opt": "Un lenguaje compilado se traduce completamente antes de la ejecución, mientras que un lenguaje interpretado se traduce línea por línea durante la ejecución" },
+          { "id": 3, "opt": "No hay diferencia significativa" }
+        ]
+      },
+      {
+        "question": "¿Qué es la recursividad en programación y cuándo podría ser útil?",
+        "answer": "Una técnica donde una función se llama a sí misma",
+        "hint": "Recursivo significa que se refiere a sí mismo",
+        "options": [
+          { "id": 0, "opt": "Un error en el código" },
+          { "id": 1, "opt": "Una técnica donde una función se llama a sí misma" },
+          { "id": 2, "opt": "Un enfoque para el mayor uso de bucles posibles sumado a POO" },
+          { "id": 3, "opt": "Todas las opciones" }
+        ]
+      },
+      {
+        "question": "¿Cuál es la diferencia entre un desarrollo web front-end y back-end?",
+        "answer": "Front-end es la parte visible para el usuario, mientras que back-end es la parte invisible que maneja la lógica y el almacenamiento de datos",
+        "hint": "¿Front? Adelante, ¿Back? Atrás, tal vez el back está escondido detrás del fron y no se ve",
+        "options": [
+          { "id": 0, "opt": "Front-end se refiere programar, mientras que Back-end a diseñar" },
+          { "id": 1, "opt": "Front-end es la parte visible para el usuario, mientras que back-end es la parte invisible que maneja la lógica y el almacenamiento de datos" },
+          { "id": 2, "opt": "No hay diferencia, son términos intercambiables" },
+          { "id": 3, "opt": "Front-end y back-end se refieren al mismo aspecto del desarrollo de IA" }
+        ]
+      },
+      {
+        "question": "¿Qué es AJAX y en qué contexto se utiliza comúnmente?",
+        "answer": "Una técnica que permite realizar solicitudes asíncronas al servidor desde el navegador",
+        "hint": "Alguna vez oí que la primera letra de AJAX era asynchronous",
+        "options": [
+          { "id": 0, "opt": "Un nuevo lenguaje de programación para ciberseguridad" },
+          { "id": 1, "opt": "Una biblioteca de funciones matemáticas para crear animaciones 3D" },
+          { "id": 2, "opt": "Una técnica que permite realizar solicitudes asíncronas al servidor desde el navegador" },
+          { "id": 3, "opt": "Una herramienta de diseño de videojuegos" }
+        ]
+      }
+    ],
+    [
+      {
+        "question": "¿Qué es un API REST y en qué se diferencia de un API SOAP?",
+        "answer": "Un API REST utiliza solo JSON para la comunicación, mientras que un API SOAP puede utilizar XML o JSON",
+        "hint": "Te la pongo facil, no son lo mismo y ambas usan HTTP",
+        "options": [
+          { "id": 0, "opt": "Un API REST utiliza solo XML para la comunicación, mientras que un API SOAP puede utilizar XML o JSON" },
+          { "id": 1, "opt": "Un API REST utiliza solo JSON para la comunicación, mientras que un API SOAP puede utilizar XML o JSON" },
+          { "id": 2, "opt": "Ambos son lo mismo, solo se utilizan términos diferentes" },
+          { "id": 3, "opt": "Un API REST utiliza solo HTTP para la comunicación, mientras que un API SOAP puede utilizar cualquier protocolo" }
+        ]
+      },
+      {
+        "question": "¿Qué es la inyección de dependencias y por qué es importante en el desarrollo de software?",
+        "answer": "Es un proceso para suministrar a un componente las dependencias que necesita para funcionar",
+        "options": [
+          { "id": 0, "opt": "Es un patrón de diseño que permite dividir una aplicación en componentes reutilizables" },
+          { "id": 1, "opt": "Es una técnica para inyectar errores intencionales en el código para propósitos de prueba" },
+          { "id": 2, "opt": "Es un proceso para suministrar a un componente las dependencias que necesita para funcionar" },
+          { "id": 3, "opt": "Es una medida de seguridad para prevenir ataques de inyección de código" }
+        ]
+      },
+      {
+        "question": "¿Cuáles son los cuatro principales conceptos en POO?",
+        "answer": "Los cuatro principales conceptos en POO son encapsulamiento, herencia, polimorfismo y abstracción",
+        "hint": "Una clase es una plantilla para un objeto, este es una abtracción del tipo que puede tomar varias formas",
+        "options": [
+          { "id": 0, "opt": "Los cuatro pilares de la POO son: Programar, Objetivar, Ordenar" },
+          { "id": 1, "opt": "Los cuatro principales conceptos en POO son encapsulamiento, herencia, polimorfismo y abstracción" },
+          { "id": 2, "opt": "En POO, solo se utilizan objetos como variables" },
+          { "id": 3, "opt": "Los cuatro principales conceptos en POO son funciones, variables, arrays y bucles" }
+        ]
+      },
+      {
+        "question": "¿Qué es una llave primaria compuesta y cuándo sería apropiado utilizarla en una base de datos?",
+        "answer": "Una llave primaria compuesta es una clave única formada por la combinación de varias columnas y se utiliza cuando ninguna de esas columnas puede garantizar la unicidad por sí sola",
+        "hint": "Compuesta signfica que esta conformado por varias cosas",
+        "options": [
+          { "id": 0, "opt": "Una llave primaria compuesta es una clave única formada por la combinación de varias columnas y se utiliza cuando se desea permitir valores duplicado en todas la tablas" },
+          { "id": 1, "opt": "Una llave primaria compuesta es una clave única formada por una sola columna y se utiliza cuando se desea garantizar la unicidad de esa columna" },
+          { "id": 2, "opt": "No existe el concepto de llave primaria compuesta en bases de datos" },
+          { "id": 3, "opt": "Una llave primaria compuesta es una clave única formada por la combinación de varias columnas y se utiliza cuando ninguna de esas columnas puede garantizar la unicidad por sí sola" }
+        ]
+      },
+      {
+        "question": "¿Qué es la normalización de una base de datos y por qué es importante?",
+        "answer": "La normalización de una base de datos es el proceso de eliminar redundancias y asegurar que los datos estén organizados de manera eficiente",
+        "hint": "Hay que evitar la duplicación de datos, nadie quiere tener que escribir los mismo varias veces",
+        "options": [
+          { "id": 0, "opt": "La normalización de una base de datos es el proceso de eliminar redundancias y asegurar que los datos estén organizados de manera eficiente" },
+          { "id": 1, "opt": "La normalización de una base es el proceso de agregar redundancias para mejorar el rendimiento de las tablas" },
+          { "id": 2, "opt": "La normalización de una base de datos es un paso opcional y no tiene impacto en la eficiencia del sistema, es más, en ocasiones la relentiza" },
+          { "id": 3, "opt": "La normalización de una base de datos es el proceso de repetir el tipo de datos de las columnas para mejorar el algoritmo" }
+        ]
+      },
+      {
+        "question": "¿Qué es el patrón MVC (Modelo-Vista-Controlador) y cómo ayuda en el diseño de aplicaciones?",
+        "answer": "El patrón MVC divide una aplicación en tres componentes: Modelo, Vista y Controlador, para facilitar la modularidad y el mantenimiento",
+        "hint": "Un patrón no es un lenguage y sigue una estructura para conseguir un objetivo",
+        "options": [
+          { "id": 0, "opt": "El patrón MVC es un lenguaje de programación utilizado para el desarrollo web" },
+          { "id": 1, "opt": "El patrón MVC es un marco de trabajo para el diseño de interfaces de usuario" },
+          { "id": 2, "opt": "El patrón MVC divide una aplicación en tres componentes: Modelo, Vista y Controlador, para facilitar la modularidad y el mantenimiento" },
+          { "id": 3, "opt": "El patrón MVC solo se aplica en entornos de desarrollo de escritorio" }
+        ]
+      },
+      {
+        "question": "¿Qué es el polimorfismo en programación orientada a objetos y cómo se implementa en algunos lenguajes de programación populares?",
+        "answer": "El polimorfismo permite que un objeto pueda presentar múltiples formas, y se implementa a través de métodos con el mismo nombre en diferentes clases",
+        "hint": "Poli signficia 'muchos', así que supongo que hace referencia a la mutiplicidad o algo así",
+        "options": [
+          { "id": 0, "opt": "El polimorfismo es un concepto que no se aplica en programación orientada a objetos" },
+          { "id": 1, "opt": "El polimorfismo permite que un objeto sea tratado como otro objeto de una clase diferente, y se implementa a través de la herencia" },
+          { "id": 2, "opt": "El polimorfismo permite que un objeto pueda presentar múltiples formas, y se implementa a través de métodos con el mismo nombre en diferentes clases" },
+          { "id": 3, "opt": "El polimorfismo solo se aplica en lenguajes de programación específicos" }
+        ]
+      },
+      {
+        "question": "¿Qué es la programación asíncrona y cuál es su ventaja en comparación con la programación síncrona?",
+        "answer": "La programación asíncrona permite que múltiples tareas se ejecuten simultáneamente sin bloquear el hilo principal, mejorando la eficiencia en la gestión de recursos",
+        "hint": "Asincrono quiere decir que no trabaja en de manera lineal",
+        "options": [
+          { "id": 0, "opt": "La programación asíncrona es un tipo de programación que solo se utiliza en sistemas operativos" },
+          { "id": 1, "opt": "La programación asíncrona permite que múltiples tareas se ejecuten simultáneamente sin bloquear el hilo principal, mejorando la eficiencia en la gestión de recursos" },
+          { "id": 2, "opt": "La programación asíncrona solo se utiliza en lenguajes de programación como Fortran" },
+          { "id": 3, "opt": "La programación asíncrona no tiene ventajas claras sobre la programación síncrona" }
+        ]
+      }
+    ],
+    [
+      {
+        "question": "¿Qué es la programación funcional y en qué se diferencia de la programación imperativa?",
+        "answer": "La programación funcional se basa en funciones puras y evita el cambio de estado, mientras que la programación imperativa permite modificar el estado de las variables",
+        "hint": "¿Programación funcional? Algo tendrá que ver con funciones al menos basarse en ellas",
+        "options": [
+          { "id": 0, "opt": "La programación funcional se centra en cambiar el estado y la asignación de variables, mientras que la programación imperativa se basa en funciones puras" },
+          { "id": 1, "opt": "La programación funcional utiliza principalmente loops y condiciones, mientras que la programación imperativa se basa en la composición de funciones" },
+          { "id": 2, "opt": "La programación funcional se basa en el cambio de estado y la asignación de variables, mientras que la programación imperativa se centra en funciones puras" },
+          { "id": 3, "opt": "La programación funcional se basa en funciones puras y evita el cambio de estado, mientras que la programación imperativa permite modificar el estado de las variables" }
+        ]
+      },
+      {
+        "question": "¿Qué es la programación reactiva y cual es el mejor caso de uso?",
+        "answer": "La programación reactiva es un paradigma que se basa en la propagación automática de cambios mediante la observación de datos. Puede ser beneficioso en situaciones donde hay interacciones frecuentes",
+        "hint": "Cada vez que se dice 'Programación algo' pueden estar hablando de un paradigma",
+        "options": [
+          { "id": 0, "opt": "La programación reactiva se centra en evitar el uso de funciones y operaciones asíncronas" },
+          { "id": 1, "opt": "La programación reactiva es un paradigma que se basa en la propagación automática de cambios mediante la observación de datos. Puede ser beneficioso en situaciones donde hay interacciones frecuentes" },
+          { "id": 2, "opt": "La programación reactiva solo se aplica a sistemas embebidos" },
+          { "id": 3, "opt": "La programación reactiva es únicamente relevante en el desarrollo de interfaces gráficas" }
+        ]
+      },
+      {
+        "question": "¿Cuál es la diferencia entre una base de datos SQL y una base de datos NoSQL?",
+        "answer": "Las bases de datos SQL son tabulares y utilizan un lenguaje de consulta estructurado, mientras que las bases de datos NoSQL son no tabulares y permiten una mayor flexibilidad en la estructura de los datos",
+        "hint": "SQl signfica Structure Query Language, es decir, Lenguage de Consultas ESTRUCTURADO",
+        "options": [
+          { "id": 0, "opt": "Las bases de datos SQL y NoSQL son términos intercambiables y no tienen diferencias significativas" },
+          { "id": 1, "opt": "Las bases de datos SQL son tabulares y utilizan un lenguaje de consulta estructurado, mientras que las bases de datos NoSQL son no tabulares y permiten una mayor flexibilidad en la estructura de los datos"  },
+          { "id": 2, "opt": "Las bases de datos SQL solo se utilizan en proyectos pequeños" },
+          { "id": 3, "opt": "Las bases de datos NoSQL son obsoletas y deben evitarse en proyectos modernos" }
+        ]
+      },
+      {
+        "question": "¿Qué es la refactorización de código?",
+        "answer": "La refactorización de código implica modificar la estructura interna del código sin cambiar su comportamiento externo",
+        "hint": "¿Re? Volver a hacer supongo, ¿Factorizar? me recuerda a 'La suma de los factores no altera el producto'",
+        "options": [
+          { "id": 0, "opt": "La refactorización de código es un proceso para agregar más funciones a un proyecto existente" },
+          { "id": 1, "opt": "La refactorización de código solo se realiza en proyectos que están en la fase de diseño inicial" },
+          { "id": 2, "opt": "La refactorización de código implica modificar la estructura interna del código sin cambiar su comportamiento externo" },
+          { "id": 3, "opt": "La refactorización de código es una práctica obsoleta y no se recomienda en proyectos modernos" }
+        ]
+      }
+    ]
+  ]
+}

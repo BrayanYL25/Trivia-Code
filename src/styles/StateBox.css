@@ -1,0 +1,9 @@
+.questionBox {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #b3b3b3;
+  box-shadow: 3px 3px 0px #808080;
+}

@@ -1,0 +1,13 @@
+:root{
+  --font-base: 20px;
+  font-size: var(--font-base);
+}
+
+@font-face {
+  font-family: Pixel;
+  src: url(../assets/fonts/PixelFont.ttf);
+}
+
+* {
+  font-family: Pixel, system-ui;
+}

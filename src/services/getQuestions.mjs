@@ -9,9 +9,9 @@ export const getQuestions = async () => {
         'X-Key-Name': KEY_NAME
       }
     }
-    const res = await fetch('https://api.jsonbin.io/v3/b/65e53386dc74654018ad68ed', config)
+    const res = await fetch('https://api.jsonbin.io/v3/b/65ed2383dc74654018b0b765', config)
     const { record } = await res.json()
-    return record
+    return record.result
   } catch (error) {
     throw new Error(`Hubo un error al realizar fetch: ${error}`)
   }

@@ -1,16 +1,19 @@
-//  Hooks
+// Hooks
 import { useState, useEffect } from 'react'
-//  Mocks
-import Stacks from './mocks/data.json'
+// Services
+import { getQuestions } from '../services/getQuestions.mjs'
 
-export default function useStack () {
-  const [indexStack, setIndexStack] = useState(0)
-  const [stack, setStack] = useState(Stacks.result[indexStack])
-  const [asserts, setAsserts] = useState(Array(stack.length).fill(null))
+export default function useStack ({ indexStack }) {
+  const [allStacks, setAllStacks] = useState([])
+  const [stack, setStack] = useState([])
 
   useEffect(() => {
-    setAsserts(Array(stack.length).fill(null))
-  }, [stack])
+    getQuestions()
+      .then(stacks => {
+        setAllStacks(stacks)
+        setStack(allStacks[indexStack])
+      })
+  }, [])
 
-  return { stack, setStack, indexStack, setIndexStack, asserts, setAsserts }
+  return [stack, setStack]
 }

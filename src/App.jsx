@@ -14,6 +14,7 @@ export default function App () {
   const [stack, setStack] = useState(Stacks.result[indexStack])
   const [asserts, setAsserts] = useState(Array(stack.length).fill(null))
   const [indexQuestion, setIndexQuestion] = useState(0)
+  const [debuggerMsg, setDebugger] = useState({})
 
   const handleSubmit = (e) => {
     e.preventDefault()
@@ -43,10 +44,11 @@ export default function App () {
       }
       setIndexQuestion(indexQuestion + 1)
     }
+    setDebugger({ type: e.type })
   }
   return (
     <main className='m-3'>
-      <section className='w-100 d-flex justify-content-between'>
+      <section className='d-flex flex-wrap justify-content-between'>
         {
           asserts.map((ok, index) => <StateBox key={index} isOk={ok} />)
         }
@@ -57,6 +59,9 @@ export default function App () {
           stack[indexQuestion].options.map(opt => <Answer key={opt.id} option={opt.opt} clickHandle={handleClick} />)
         }
       </form>
+      <section>
+        {String(JSON.stringify(debuggerMsg))}
+      </section>
     </main>
   )
 }
